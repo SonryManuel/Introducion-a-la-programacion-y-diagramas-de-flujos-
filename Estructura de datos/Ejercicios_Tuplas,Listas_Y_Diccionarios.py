@@ -8,6 +8,8 @@ Vulnerabilidades = ('SQL Injection', 'Cross-Site Scripting', 'Buffer Overflow', 
 print(Vulnerabilidades[0])
 print(Vulnerabilidades)
 
+
+
 #Ejercicio 2: Listas
 print("\n \n Ejercicio 2: Listas")
 print("===================================")
@@ -27,7 +29,9 @@ print("===================================")
 
 dispositivo_red = {'ip': '192.168.1.10', 
                    'Hostname': 'Firewall-corp',
-                   'Esstado': 'Activo'}
+                   'Estado': 'Activo'}
 
 print(dispositivo_red['Hostname'])
-dispositivo_red[']
+dispositivo_red['Ubicacion'] = 'Centro de Datos'
+dispositivo_red['Estado'] = 'Inactivo'
+print(dispositivo_red)
