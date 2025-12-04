@@ -8,4 +8,4 @@ cursor1=conexion1.cursor()
 cursor1.execute("select codigo, descripcion, precio from articulos")
 for fila in cursor1:
     print(fila)
-conexion1.close()    
+conexion1.close()   
